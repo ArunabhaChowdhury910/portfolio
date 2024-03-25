@@ -72,7 +72,7 @@
   import Features from '/components/parts/Features.vue'
   import PartsUpperpart from '/components/parts/upperpart.vue'
   import Cards from '/components/cards/cards.vue'
-  import Contact from '/components/parts/Contact.vue'
+  import Contact from '/components/parts/contact.vue'
   
   const card  = ref('SIH');
   const sub = ref("My project");
