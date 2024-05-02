@@ -1,5 +1,5 @@
 <template>
-    <div class="text-bl dark:text-white  pl-3 py-3 w-screen max-h-full justify-right space-x-6 font-Space">
+    <div class="text-bl dark:text-white  pl-3 pt-4 w-full flex justify-end max-h-full space-x-6 font-Space px-8">
       <a href="https://www.instagram.com/__arunabha28__/" class="hover:text-or">instagram</a>
       <a href="" class="hover:text-or">linkedin</a>
       <a href="" class="hover:text-or">facebook</a>

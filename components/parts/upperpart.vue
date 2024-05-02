@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full items-center flex h-full px-3 py-32 font-Space">
+    <div class=" w-full space-x-64 items-center flex h-full pl-12 py-32 font-Space">
        
        <div v-motion-slide-left  class=" w-1/2 h-full flex flex-col justify-center  px-3 ">
           <h1 class="text-8xl font-bold text-yell dark:text-or">HELLO,</h1>
@@ -14,8 +14,7 @@
       </div>
       
       <div  v-motion-fade class=" flex wwww w-1/2 h-3/4 items-center  justify-center ">
-        <!-- <img src="/assets/images/6.png" class="translate-x-8 h-full w-5/6" /> -->
-        <!-- <div class="w-screen h-screen bg-white flex items-center justify-center"> -->
+        
         <img src="/assets/images/bac08k.png" class="w-fit h-fit -translate-y-[8px] -translate-x-[px] absolute "/>
         <div class="w-96 h-96 border-or border-8 p-52  absolute border-l-0 anime  border-r-0 border-t-0 rounded-full "></div>
         <div class="w-96 h-96 border-ye border-8 p-44 border-b-0  border-r-0 anime border-l-0 rounded-full absolute "></div>
