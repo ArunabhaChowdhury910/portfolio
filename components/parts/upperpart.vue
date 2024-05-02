@@ -13,12 +13,12 @@
           <boxbtn :subject="sub" class="w-72 bg-bgog "></boxbtn>
       </div>
       
-      <div  v-motion-fade class=" flex transition-all duration-[1000ms] w-1/2 h-3/4 items-center  justify-center ">
+      <div  v-motion-fade class=" flex wwww w-1/2 h-3/4 items-center  justify-center ">
         <!-- <img src="/assets/images/6.png" class="translate-x-8 h-full w-5/6" /> -->
         <!-- <div class="w-screen h-screen bg-white flex items-center justify-center"> -->
-        <img src="/assets/images/bac08k.png" class="w-fit h-fit -translate-y-[8px] -translate-x-[px] absolute"/>
+        <img src="/assets/images/bac08k.png" class="w-fit h-fit -translate-y-[8px] -translate-x-[px] absolute "/>
         <div class="w-96 h-96 border-or border-8 p-52  absolute border-l-0 anime  border-r-0 border-t-0 rounded-full "></div>
-        <div class="w-96 h-96 border-ye border-8 p-44 border-b-0  border-r-0 anime border-l-0 rounded-full absolute"></div>
+        <div class="w-96 h-96 border-ye border-8 p-44 border-b-0  border-r-0 anime border-l-0 rounded-full absolute "></div>
         <div class="w-96 h-96 border-mg border-8 absolute border-l-0 p-40 anime border-r-0 border-t-0 rounded-full "></div>
  </div>
       </div>
@@ -126,10 +126,10 @@ const featureSkills:{contens: string}[] = [
 .anime{
   animation: spin 5s linear infinite;
 }
-@keyframes animate {
+@keyframes spin {
   0% {
     transform: rotate(0deg);
-  }
+  } 
   100% {
     transform: rotate(360deg);
   }

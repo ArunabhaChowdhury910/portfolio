@@ -1,5 +1,5 @@
 <template>
-    <div class="text-bl dark:text-white  pl-3 py-3 w-screen max-h-full space-x-6 font-Space">
+    <div class="text-bl dark:text-white  pl-3 py-3 w-screen max-h-full justify-right space-x-6 font-Space">
       <a href="https://www.instagram.com/__arunabha28__/" class="hover:text-or">instagram</a>
       <a href="" class="hover:text-or">linkedin</a>
       <a href="" class="hover:text-or">facebook</a>
@@ -35,14 +35,14 @@
                 
                 
             </ol>
-            <div v-if="pal===1" class=" bg-black w-3/4 rounded-lg ">
-              <img src="/assets/images/h-sec.png"/>
+            <div  v-if="pal===1" class="  w-3/4 rounded-lg ">
+              <img v-motion-fade-visible src="/assets/images/h-sec.png" class="transition-all duration-[500ms]"/>
             </div>
             <div v-if="pal===2 " class="  w-3/4 rounded-lg ">
-              <img src="/assets/images/notedrive.jpg" class="mix-blend-exclusion rounded-lg"/>
+              <img v-motion-fade-visible src="/assets/images/notedrive.jpg" class="transition-all duration-[500ms] mix-blend-exclusion rounded-lg"/>
             </div>
             <div v-if="pal===3" class="  w-3/4 rounded-lg ">
-              <img src="/assets/images/user-dashboard.png"/>
+              <img v-motion-fade-visible src="/assets/images/user-dashboard.png" class="transition-all duration-[500ms]"/>
             </div>
         </div>
 
